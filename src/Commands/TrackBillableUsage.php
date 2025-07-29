@@ -1,9 +1,9 @@
 <?php
 
-namespace Platform\Core\Commands;
+namespace Martin3r\Platform\Core\Commands;
 
 use Illuminate\Console\Command;
-use Platform\Core\Services\UsageTrackingService;
+use Martin3r\Platform\Core\Services\UsageTrackingService;
 
 class TrackBillableUsage extends Command
 {

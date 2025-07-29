@@ -1,11 +1,11 @@
 <?php
 
-namespace Platform\Core\Services;
+namespace Martin3r\Platform\Core\Services;
 
-use Platform\Core\Models\Team;
-use Platform\Core\Models\Invoice;
-use Platform\Core\Models\InvoiceItem;
-use Platform\Core\Models\TeamBillableUsage;
+use Martin3r\Platform\Core\Models\Team;
+use Martin3r\Platform\Core\Models\Invoice;
+use Martin3r\Platform\Core\Models\InvoiceItem;
+use Martin3r\Platform\Core\Models\TeamBillableUsage;
 use Illuminate\Support\Facades\DB;
 use Carbon\Carbon;
 

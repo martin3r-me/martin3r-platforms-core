@@ -1,6 +1,6 @@
 <?php
 
-namespace Platform\Core\Routing;
+namespace Martin3r\Platform\Core\Routing;
 
 use Closure;
 use Illuminate\Support\Facades\Route;
@@ -11,7 +11,7 @@ class ModuleRouter
     public static function group(string $key, Closure $callback, bool $requireAuth = true)
     {
         // Modul-Config laden
-        $module = \Platform\Core\PlatformCore::getModule($key);
+        $module = Martin3r\\Platform\Core\PlatformCore::getModule($key);
         if (!$module) {
             throw new \RuntimeException("Module '{$key}' is not registered.");
         }

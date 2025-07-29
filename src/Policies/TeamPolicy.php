@@ -1,10 +1,10 @@
 <?php
 
-namespace Platform\Core\Policies;
+namespace Martin3r\Platform\Core\Policies;
 
-use Platform\Core\Models\User;
-use Platform\Core\Models\Team;
-use Platform\Core\Enums\TeamRole;
+use Martin3r\Platform\Core\Models\User;
+use Martin3r\Platform\Core\Models\Team;
+use Martin3r\Platform\Core\Enums\TeamRole;
 
 class TeamPolicy
 {

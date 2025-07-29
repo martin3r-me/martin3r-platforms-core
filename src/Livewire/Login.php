@@ -1,6 +1,6 @@
 <?php
 
-namespace Platform\Core\Livewire;
+namespace Martin3r\Platform\Core\Livewire;
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;

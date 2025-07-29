@@ -1,10 +1,10 @@
 <?php
 
-namespace Platform\Core\Services;
+namespace Martin3r\Platform\Core\Services;
 
-use Platform\Core\Models\TeamBillableUsage;
-use Platform\Core\Models\Team;
-use Platform\Core\PlatformCore;
+use Martin3r\Platform\Core\Models\TeamBillableUsage;
+use Martin3r\Platform\Core\Models\Team;
+use Martin3r\Platform\Core\PlatformCore;
 use Carbon\Carbon;
 
 class UsageTrackingService

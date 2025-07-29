@@ -1,6 +1,6 @@
 <?php
 
-namespace Platform\Core\Models;
+namespace Martin3r\Platform\Core\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

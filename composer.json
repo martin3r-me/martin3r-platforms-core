@@ -1,5 +1,5 @@
 {
-  "name": "platform/core",
+  "name": "martin3r/platform/core",
   "description": "Plattform Core Package",
   "type": "library",
   "repositories": [
@@ -25,7 +25,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Platform\\Core\\CoreServiceProvider"
+        "Martin3r\\Platform\\Core\\CoreServiceProvider"
       ]
     }
   },

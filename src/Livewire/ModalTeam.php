@@ -1,11 +1,11 @@
 <?php
 
-namespace Platform\Core\Livewire;
+namespace Martin3r\Platform\Core\Livewire;
 
 use Livewire\Component;
-use Platform\Core\Models\Team;
-use Platform\Core\Models\TeamInvitation;
-use Platform\Core\Enums\TeamRole;
+use Martin3r\Platform\Core\Models\Team;
+use Martin3r\Platform\Core\Models\TeamInvitation;
+use Martin3r\Platform\Core\Enums\TeamRole;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
 use Illuminate\Validation\Rule;

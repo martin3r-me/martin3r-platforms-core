@@ -1,13 +1,13 @@
 <?php
 
-namespace Platform\Core\Livewire;
+namespace Martin3r\Platform\Core\Livewire;
 
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Validation\Rules\Password;
 use Livewire\Component;
-use Platform\Core\PlatformCore;
+use Martin3r\Platform\Core\PlatformCore;
 
 class Register extends Component
 {
@@ -28,7 +28,7 @@ class Register extends Component
             'password'              => ['required', 'confirmed', Password::defaults()],
         ]);
 
-        $user = \Platform\Core\Models\User::create([
+        $user = Martin3r\\Platform\Core\Models\User::create([
             'name'      => $validated['name'],
             'lastname'  => $validated['lastname'],
             'email'     => $validated['email'],

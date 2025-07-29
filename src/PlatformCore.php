@@ -1,11 +1,11 @@
 <?php
 
-namespace Platform\Core;
+namespace Martin3r\Platform\Core;
 
-use Platform\Core\Registry\ModuleRegistry;
-use Platform\Core\Models\Team;
+use Martin3r\Platform\Core\Registry\ModuleRegistry;
+use Martin3r\Platform\Core\Models\Team;
 use Illuminate\Contracts\Auth\Authenticatable;
-use Platform\Core\Enums\TeamRole;
+use Martin3r\Platform\Core\Enums\TeamRole;
 
 class PlatformCore
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Platform\Core\Registry;
+namespace Martin3r\Platform\Core\Registry;
 
 class ModuleRegistry
 {

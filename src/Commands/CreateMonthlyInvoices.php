@@ -1,10 +1,10 @@
 <?php
 
-namespace Platform\Core\Commands;
+namespace Martin3r\Platform\Core\Commands;
 
 use Illuminate\Console\Command;
-use Platform\Core\Models\Team;
-use Platform\Core\Services\InvoiceService;
+use Martin3r\Platform\Core\Models\Team;
+use Martin3r\Platform\Core\Services\InvoiceService;
 use Carbon\Carbon;
 
 class CreateMonthlyInvoices extends Command

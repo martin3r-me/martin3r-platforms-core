@@ -1,11 +1,11 @@
 <?php
 
-namespace Platform\Core\Middleware;
+namespace Martin3r\Platform\Core\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Log;
-use Platform\Core\PlatformCore;
+use Martin3r\Platform\Core\PlatformCore;
 
 class DetectModuleGuard
 {

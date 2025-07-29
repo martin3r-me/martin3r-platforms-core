@@ -1,10 +1,10 @@
 <?php
 
-namespace Platform\Core\Livewire;
+namespace Martin3r\Platform\Core\Livewire;
 
 use Livewire\Component;
-use Platform\Core\Models\TeamBillableUsage;
-use Platform\Core\PlatformCore;
+use Martin3r\Platform\Core\Models\TeamBillableUsage;
+use Martin3r\Platform\Core\PlatformCore;
 use Livewire\Attributes\On;
 use Carbon\Carbon;
 

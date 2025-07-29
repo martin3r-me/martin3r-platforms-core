@@ -1,6 +1,6 @@
 <?php
 
-namespace Platform\Core\Enums;
+namespace Martin3r\Platform\Core\Enums;
 
 enum TeamRole: string
 {

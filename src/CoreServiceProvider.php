@@ -1,6 +1,6 @@
 <?php
 
-namespace Platform\Core;
+namespace Martin3r\Platform\Core;
 
 use Illuminate\Support\ServiceProvider;
 use Livewire\LivewireServiceProvider;
@@ -9,8 +9,8 @@ use Illuminate\Support\Str;
 use Livewire\Livewire;
 
 // Command-Klasse importieren!
-use Platform\Core\Commands\TrackBillableUsage;
-use Platform\Core\Commands\CreateMonthlyInvoices;
+use Martin3r\Platform\Core\Commands\TrackBillableUsage;
+use Martin3r\Platform\Core\Commands\CreateMonthlyInvoices;
 
 class CoreServiceProvider extends ServiceProvider
 {

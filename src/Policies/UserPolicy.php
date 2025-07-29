@@ -1,8 +1,8 @@
 <?php
 
-namespace Platform\Core\Policies;
+namespace Martin3r\Platform\Core\Policies;
 
-use Platform\Core\Models\User;
+use Martin3r\Platform\Core\Models\User;
 
 class UserPolicy
 {
